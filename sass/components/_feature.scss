@@ -1,0 +1,45 @@
+/* Особливості */
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
+.container-items {
+    display: inline-flex;
+    gap: $gap-card-set;
+
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 270px;
+    background-color: $color-bgr-light;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+}
+
+.icon-svg {
+    width: 70px;
+    height: 70px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: $color-secondary;
+}

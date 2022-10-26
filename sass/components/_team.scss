@@ -1,0 +1,83 @@
+/* Наша команда */
+
+.section.team {
+    background-color: $color-bgr-light;
+}
+
+.section-team-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-bottom: 10px;
+
+}
+
+.section-team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    color: $color-secondary;
+}
+
+.team-card {
+    background: $color-white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+}
+
+.team-content {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.container-social {
+    width: 206px;
+    height: 44px;
+
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 16px;
+
+}
+
+.social-link {
+    display: flex;
+    padding: 0;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    cursor: pointer;
+    transition: color 250ms $timing-function,
+    background-color 250ms $timing-function;
+
+}
+
+.social-icon {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+
+}
+
+.social-link:hover,
+.social-link:focus {
+    color: $color-white;
+    background-color: $color-accent;
+}

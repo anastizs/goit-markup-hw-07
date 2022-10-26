@@ -1,0 +1,44 @@
+/* Постійні клієнти */
+.client-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+
+}
+
+.client-link {
+    display: flex;
+    padding: 0;
+    border: none;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    cursor: pointer;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition-property: color, border;
+    transition-duration: 250ms;
+    transition-timing-function: $timing-function;
+
+}
+
+.client-icon {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    fill: currentColor;
+    width: 106px;
+    height: 60px;
+
+}
+
+.client-link:hover,
+.client-link:focus {
+    color: $color-accent;
+    border: 1px solid $color-accent;
+}

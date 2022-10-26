@@ -1,0 +1,99 @@
+/* CARD */
+.card {
+    background: $color-white;
+    cursor: pointer;
+    transition: box-shadow 250ms $timing-function;
+}
+
+.card-thumb {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.card-thumb::before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(33, 150, 243, 0.9);
+    transform: translateY(100%);
+    transition: transform 250ms $timing-function;
+    cursor: pointer;
+
+}
+
+.card:hover .card-thumb::before {
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+.card:hover .card-thumb-text,
+.card:hover .card-thumb-text {
+    transform: translateY(0);
+    cursor: pointer;
+}
+
+.card-thumb-text {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    color: $color-white;
+    top: 0;
+    left: 0;
+    padding: 63px 24px;
+    transform: translateY(100%);
+    transition: transform 250ms $timing-function;
+}
+
+.card-set {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+
+}
+
+.card-set>.item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.card:hover,
+.card:focus {
+    box-shadow: $shadow-cart;
+}
+
+.card-heading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    color: $color-primary;
+    cursor: pointer;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.9;
+    color: $color-secondary;
+    cursor: pointer;
+}
+
+.card-content {
+    padding: 20px 24px;
+    border: 1px solid $color-bgr-cards;
+    border-top-width: 0;
+}
