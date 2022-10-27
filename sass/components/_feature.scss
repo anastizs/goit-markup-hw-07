@@ -1,17 +1,13 @@
-/* Особливості */
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+// ОСОБЛИВОСТІ
 
-}
 
-.container-items {
+
+.feature {
     display: inline-flex;
     gap: $gap-card-set;
-
 }
 
-.icon {
+.feature__icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,12 +19,12 @@
     background-repeat: no-repeat;
 }
 
-.icon-svg {
+.feature__svg {
     width: 70px;
     height: 70px;
 }
 
-.section-title {
+.feature__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.2;
@@ -37,7 +33,7 @@
     margin-bottom: 10px;
 }
 
-.section-text {
+.feature__text {
     font-size: 14px;
     line-height: 1.71;
 

@@ -1,95 +1,15 @@
-  /* Шапка сторінки */
+// ШАПКА САЙТУ
+
+
 .page-header {
-    border-bottom: 1px solid #ECECEC;
-    
+    border-bottom: 1px solid #ECECEC; 
 }
 .header{
     display: flex;
     justify-content: space-between;
 }
-.link {
-    display: flex;
-    align-items: center;
-    color: $color-secondary;
-    transition: color 250ms $timing-function;
 
-}
-
-.page-header .link:hover,
-.page-header .link:focus {
-    color: $color-accent;
-
-}
-
-.nav {
+.navigation {
     display: inline-flex;
     align-items: center;
-}
-
-.site-nav {
-    display: flex;
-    gap: 50px;
-
-}
-
-.site-nav .link {
-    font-family: 'Roboto' sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    padding: 32px 0;
-
-    color: $color-primary;
-    text-decoration: none;
-}
-
-.site-nav .link.current {
-
-    color: $color-accent;
-}
-
-
-.menu-line {
-    position: relative;
-    display: block;
-    text-decoration: none;
-}
-
-.menu-line::after {
-    content: "";
-
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    left: 0;
-    bottom: 0;
-    background-color: $color-accent;
-    border-radius: 2px;
-}
-
-
-
-.contact-nav {
-    display: flex;
-    gap: 50px;
-}
-
-.contact-nav .link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: $color-primary;
-    padding: 32px 0;
-    text-decoration: none;
-
-}
-
-.contact-icon {
-    fill: currentColor;
-    margin-right: 10px;
 }

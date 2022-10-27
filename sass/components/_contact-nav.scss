@@ -1,0 +1,34 @@
+// КОНТАКТИ САЙТУ
+
+
+.contact-nav {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-nav__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding: 32px 0;
+    text-decoration: none;
+}
+
+.contact-nav__link {
+    display: flex;
+    align-items: center;
+    color: $color-secondary;
+    transition: color 250ms $timing-function;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+        color: $color-accent;
+    }
+}
+.contact-nav__icon {
+    fill: currentColor;
+    margin-right: 10px;
+}

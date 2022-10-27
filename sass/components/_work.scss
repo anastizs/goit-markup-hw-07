@@ -1,29 +1,30 @@
-/* Чим ми займаємося */
+// ЧИМ МИ ЗАЙМАЄМОСЯ
+
+
+
 .work {
     padding-top: 0;
 }
 
-.section-item {
+.work__item {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
     margin-bottom: 50px;
-
 }
 
-.container-icons {
+.work__icons {
     display: flex;
     gap: $gap-card-set;
-
 }
 
-.thumb-img {
+.work__thumb {
     position: relative;
     width: 370px;
 }
 
-.thumb-img >.label {
+.work__title {
     position: absolute;
     width: 370px;
     bottom: 0;

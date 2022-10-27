@@ -1,17 +1,19 @@
-/* Герой */
-.hero {
+// ЦЕНТРАЛЬНА СТОРІНКА - ГЕРОЙ
+
+
+.hero-container {
     background-color: $color-bgr-footer;
     color: $color-white;
     text-align: center;
 
 }
 
-.hero-container {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
 }
 
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -19,10 +21,9 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin-bottom: 30px;
-
 }
 
-.hero-btn {
+.hero__btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -37,8 +38,8 @@
     color: $color-white;
 
     padding: 10px 32px;
-}
 
-.hero-btn:active {
-    background: #188CE8;
+    &:active{
+        background: #188CE8;
+    }
 }

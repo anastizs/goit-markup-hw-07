@@ -1,16 +1,14 @@
-// ЛОГОТИП
+// ЛОГО ФУТЕР
 
-
-.logo {
-    color: $color-black;
+.footer__logo {
+    color: $color-white;
     font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-    margin-right: 93px;
+    margin-bottom: 20px;
 }
 
-.logo__span {
+.footer__logo--span {
     color: $color-accent;
 }

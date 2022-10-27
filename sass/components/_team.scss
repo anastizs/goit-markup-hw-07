@@ -1,40 +1,44 @@
-/* Наша команда */
+// НАША КОМАНДА
 
 .section.team {
     background-color: $color-bgr-light;
 }
 
-.section-team-title {
+.team__heading {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.team__items {
+    display: flex;
+    gap: $gap-card-set;
+}
+
+.team__card {
+    background: $color-white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__content {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.team__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
-
 }
 
-.section-team-text {
+.team__text {
     font-size: 16px;
     line-height: 1.19;
     color: $color-secondary;
-}
-
-.team-card {
-    background: $color-white;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-
-}
-
-.team-content {
-    text-align: center;
-    padding: 30px 0;
-}
-
-.container-social {
-    width: 206px;
-    height: 44px;
-
 }
 
 .social-links {
@@ -46,10 +50,9 @@
     margin-left: 32px;
     margin-right: 32px;
     margin-top: 16px;
-
 }
 
-.social-link {
+.social-links__link {
     display: flex;
     padding: 0;
     border: none;
@@ -63,9 +66,14 @@
     transition: color 250ms $timing-function,
     background-color 250ms $timing-function;
 
+    &:hover,
+    &:focus {
+        color: $color-white;
+        background-color: $color-accent;
+    }
 }
 
-.social-icon {
+.social-links__icon {
     display: block;
     margin: 0;
     padding: 0;
@@ -73,11 +81,4 @@
     fill: currentColor;
     width: 20px;
     height: 20px;
-
-}
-
-.social-link:hover,
-.social-link:focus {
-    color: $color-white;
-    background-color: $color-accent;
 }
