@@ -753,15 +753,7 @@ ul {
 
 .footer__logo {
   color: #ffffff;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
   margin-bottom: 20px;
-}
-
-.footer__logo--span {
-  color: #2196F3;
 }
 
 .footer-social {
